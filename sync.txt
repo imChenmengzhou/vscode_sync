@@ -1,0 +1,39 @@
+5e11c0db1961a2c59e0cc27a60a38c39f682d310（token值）
+
+https://www.cnblogs.com/ashidamana/p/6761085.html
+
+CODE SETTINGS SYNC UPLOAD SUMMARY
+Version: 2.9.2
+--------------------
+GitHub Token: 5e11c0db1961a2c59e0cc27a60a38c39f682d310
+GitHub Gist: c133522e90021fa897ccfeffc9d70a2f
+GitHub Gist Type: Secret
+
+Restarting Visual Studio Code may be required to apply color and file icon theme.
+--------------------
+Files Uploaded:
+
+  Extensions Removed:
+
+Extensions Added:
+  bracket-pair-colorizer v1.0.55
+  code-settings-sync v2.9.2
+  language-stylus v1.9.2
+  material-palenight-theme v1.8.0
+  open-in-browser v1.1.0
+  path-intellisense v1.4.2
+  prettier-vscode v1.3.1
+  vetur v0.12.3
+  vscode-css-peek v2.1.0
+  vscode-eslint v1.4.10
+  vscode-html-css v0.2.0
+  vscode-language-pack-zh-hans v1.23.5
+--------------------
+Done.
+
+1、Settings Sync是vscode中同步设置和安装插件的小工具，在扩展商店中搜索并安装它 
+2、登陆Github>Your profile> settings>Developer settings>personal access tokens>generate new token，输入名称，勾选Gist，提交 
+3、保存Github Access Token 
+4、打开vscode，Ctrl+Shift+P打开命令框，输入sync，找到update/upload settings，输入Token，上传成功后会返回Gist ID，保存此Gist ID. 
+5、若需在其他机器上DownLoad插件的话，同样，Ctrl+Shift+P打开命令框，输入sync，找到Download settings，会跳转到Github的Token编辑界面，
+点Edit，regenerate token，保存新生成的token，在vscode命令框中输入此Token，回车，再输入之前的Gist ID，即可同步插件和设置。
